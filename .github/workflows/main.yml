@@ -1,0 +1,10 @@
+            - name: Generate static redirects
+  # You may pin to the exact commit or the version.
+  # uses: dilanx/generate-redirects@5beeb97b50535a4e6b206445602cac5cbafed3ab
+  uses: dilanx/generate-redirects@v1.1.1
+  with:
+    # List of redirects
+    redirect-configuration: # optional, default is redirects.txt
+    # Output directory
+    destination-directory: # optional, default is build
+          
